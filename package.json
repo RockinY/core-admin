@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@atlaskit/global-navigation": "^5.0.5",
+    "@atlaskit/icon": "^14.2.0",
+    "@atlaskit/navigation-next": "^3.19.1",
     "history": "^4.7.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
