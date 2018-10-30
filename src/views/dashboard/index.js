@@ -8,7 +8,10 @@ class Dashboard extends Component {
       <React.Fragment>
         <Query query={META_INFORMATION_QUERY}>
           {({ loading, error, data }) => {
-            return data
+            console.log(data);
+            return (
+              <div>Hello</div>
+            )
           }}
         </Query>
       </React.Fragment>
