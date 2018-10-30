@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Router, Route, Switch } from 'react-router'
-import styled from 'styled-components'
 import Dashboard from './views/dashboard'
 import createBrowserHistory from 'history/createBrowserHistory'
 import {
@@ -12,6 +11,10 @@ import {
 import GlobalNavigation from '@atlaskit/global-navigation';
 import DashboardIcon from '@atlaskit/icon/glyph/dashboard';
 import { Logo } from './components/logo'
+import {
+  ProductNavigationWrapper,
+  PageWrapper
+} from './styles'
 
 const history = createBrowserHistory()
 
@@ -25,9 +28,6 @@ const CustomGlobalNavigation = () => (
 );
 
 /* Product Navigation */
-const ProductNavigationWrapper = styled.div`
-  padding: 16px 0;
-`
 const CustomProductNavigation = () => (
   <ProductNavigationWrapper>
     <Section>
@@ -50,11 +50,11 @@ class Routes extends Component {
             productNavigation={CustomProductNavigation}
             containerNavigation={null}
           >
-            <div style={{ padding: '32px 40px' }}>
+            <PageWrapper>
               <Switch>
                 <Route exact path='/' component={Dashboard} />
               </Switch>
-            </div>
+            </PageWrapper>
           </LayoutManager>
         </NavigationProvider>
       </Router>
