@@ -3,11 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@atlaskit/breadcrumbs": "^6.0.10",
-    "@atlaskit/global-navigation": "^5.0.5",
-    "@atlaskit/icon": "^14.2.0",
-    "@atlaskit/navigation-next": "^3.19.1",
-    "@atlaskit/page-header": "^6.0.7",
     "apollo-cache-inmemory": "^1.3.7",
     "apollo-client": "^2.4.4",
     "apollo-link": "^1.2.3",
