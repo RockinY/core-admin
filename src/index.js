@@ -7,6 +7,7 @@ import { initStore } from './store'
 import Routes from './routes'
 import client from './client'
 import * as serviceWorker from './serviceWorker'
+import Protected from './components/protected'
 
 let initialState
 const store = initStore(window.__SERVER_STATE__ || initialState)
@@ -14,7 +15,9 @@ const store = initStore(window.__SERVER_STATE__ || initialState)
 ReactDOM.render(
   <Provider store={store}>
     <ApolloProvider client={client}>
-      <Routes />
+      <Protected>
+        <Routes />
+      </Protected>
     </ApolloProvider>
   </Provider>,
   // $FlowFixMe
