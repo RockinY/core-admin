@@ -8,6 +8,5 @@ export const PageWrapper = styled.div`
   position: relative;
   max-width: 960px;
   margin: 0px auto;
-  padding: 32px 40px;
-  display: flex;
+  padding: 0 40px;
 `

@@ -53,6 +53,18 @@
     "@atlaskit/theme" "^6.1.1"
     "@babel/runtime" "^7.0.0"
 
+"@atlaskit/breadcrumbs@^6.0.10":
+  version "6.0.10"
+  resolved "https://registry.yarnpkg.com/@atlaskit/breadcrumbs/-/breadcrumbs-6.0.10.tgz#4475334fc94789b303bd8068ed99fb0ec123a0ba"
+  integrity sha512-hKB9h/l5gCO6JdvohCj2fhUF0WJo6uCwN00mbX1/dIeuuldlIkXQ6FHDKLkQeUCK/zgkcMf6d+0gFmuNL042Jg==
+  dependencies:
+    "@atlaskit/analytics-next" "^3.0.10"
+    "@atlaskit/button" "^9.0.15"
+    "@atlaskit/theme" "^6.1.1"
+    "@atlaskit/tooltip" "^12.1.4"
+    "@babel/runtime" "^7.0.0"
+    babel-runtime "^6.26.0"
+
 "@atlaskit/button@^9.0.13", "@atlaskit/button@^9.0.15":
   version "9.0.16"
   resolved "https://registry.yarnpkg.com/@atlaskit/button/-/button-9.0.16.tgz#1e5cf95ab20c879ba2b2548d17cfd7ac509cabea"
@@ -218,6 +230,14 @@
     react-transition-group "^2.2.1"
     shallow-equal "^1.0.0"
     unstated "^1.2.0"
+
+"@atlaskit/page-header@^6.0.7":
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/@atlaskit/page-header/-/page-header-6.0.7.tgz#8cf518d1e6397337f1efdf1c2873f6594182a81a"
+  integrity sha512-CrAvWbg+FW44N9nL8BaRy93bCNAiQgSnTQryK4RU7ovH+f0C1nPtWaGWF1Ua9/MQFv/GAhJ8ejTw/nSFHQcm1Q==
+  dependencies:
+    "@atlaskit/theme" "^6.1.1"
+    "@babel/runtime" "^7.0.0"
 
 "@atlaskit/portal@^0.0.12":
   version "0.0.12"
