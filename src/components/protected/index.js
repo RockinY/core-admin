@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
-import { Route } from 'react-router'
 
 const CHECK_ADMIN = gql`
   query isAdmin {
