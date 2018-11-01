@@ -3,7 +3,7 @@ import { Pane } from 'evergreen-ui'
 
 export default ({ children }) => (
   <Pane
-    width={1024}
+    width={800}
     marginLeft='auto'
     marginRight='auto'
     paddingLeft={24}

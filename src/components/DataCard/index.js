@@ -7,7 +7,6 @@ export default ({ growth, currentPeriodCount, prevPeriodCount, prefix }) => (
     backgroundColor="white"
     width={200}
     height={120}
-    margin={24}
     display="flex"
     justifyContent="space-around"
     alignItems="center"
