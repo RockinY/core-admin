@@ -1,18 +1,17 @@
 import React, { Component } from 'react'
-import { Router, Route, Switch } from 'react-router'
+import { Route, Switch } from 'react-router'
 import Dashboard from './views/dashboard'
-import createBrowserHistory from 'history/createBrowserHistory'
-
-const history = createBrowserHistory()
+import TopBar from 'components/TopBar'
 
 class Routes extends Component {
   render () {
     return (
-      <Router history={history}>
+      <React.Fragment>
+        <Route component={TopBar} />
         <Switch>
           <Route exact path='/' component={Dashboard} />
         </Switch>
-      </Router>
+      </React.Fragment>
     )
   }
 }
