@@ -10,6 +10,7 @@
     "apollo-upload-client": "^9.0.0",
     "apollo-utilities": "^1.0.24",
     "dotenv": "^6.1.0",
+    "evergreen-ui": "^4.2.0",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.10.0",
     "history": "^4.7.2",
