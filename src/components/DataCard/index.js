@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Pane, Icon, Text } from 'evergreen-ui'
+import { Card, Pane, Icon, Text, Heading } from 'evergreen-ui'
 
 export default ({ growth, currentPeriodCount, prevPeriodCount, prefix }) => (
   <Card
@@ -18,8 +18,8 @@ export default ({ growth, currentPeriodCount, prevPeriodCount, prefix }) => (
       alignItems="center"
       justifyContent="center"
     >
-      <Text>本{prefix} {currentPeriodCount}</Text>
-      <Text size={300}>上{prefix} {prevPeriodCount}</Text>
+      <Heading size={600}>本{prefix} {currentPeriodCount}</Heading>
+      <Text size={400} marginTop={8}>上{prefix} {prevPeriodCount}</Text>
     </Pane>
     <Pane
      display="flex"
